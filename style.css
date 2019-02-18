@@ -1,0 +1,66 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(red,yellow);
+  background-repeat: no-repeat;
+  background-size: 100vw 140vh;
+  background-position: center;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6.3em;
+  padding: .5em 6.5em;
+  box-sizing: border-box;
+  transition: .3s;
+  background: rgba(0,0,0,.5);
+}
+nav .logo{
+  padding: .75em .5em;
+  height: 5em;
+  float: left;
+  font-size: 2em;
+  transition: .3s;
+  color: #fff;
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li a{
+  line-height: 5em;
+  color: #151515;
+  padding: 1em 2.5em;
+  text-decoration: none;
+  text-transform: uppercase;;
+  transition: .3s;
+  color: #fff;
+}
+nav ul li a:focus{
+  outline: none;
+}
+nav ul li a.active{
+  background: #E2472F;
+  color: #fff;
+  border-radius: .5em;
+}
+section.sec1{
+  width: 100%;
+  height: 5em;
+}
+.content{
+  margin-top: 2.5em;
+}
+.content p{
+  width: 75%;
+  margin: 1em auto;
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 1em;
+}
